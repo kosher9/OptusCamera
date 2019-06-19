@@ -505,7 +505,7 @@ class CameraFragment : Fragment(), View.OnClickListener, ActivityCompat.OnReques
     /**
      * Choose the direction the camera will face
      */
-    /*private fun chooseCameraByFacing(): Boolean{
+    private fun chooseCameraByFacing(): Boolean{
         try {
             val internalFacing = INTERNAL_FACING.get(mFacing)
             val ids = mCameraManager.cameraIdList
@@ -531,7 +531,7 @@ class CameraFragment : Fragment(), View.OnClickListener, ActivityCompat.OnReques
                 }
             }
         }
-    }*/
+    }
 
     private fun configureTransform(viewWidth: Int, viewHeight: Int){
         activity ?: return
